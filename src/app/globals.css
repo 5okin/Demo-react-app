@@ -1,0 +1,104 @@
+.bg-image{
+	background-image: url(/background_wave.webp);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+
+.card{
+    min-width: 200px;
+    max-width: 400px;
+}
+
+
+.card {
+	transition: transform 0.2s ease-in-out; /* Smooth transition for card movement */
+}
+
+
+.card:hover {
+    transform: translateY(-5px); /* Adjust the value for the desired vertical movement */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a lift effect */
+    cursor: pointer;
+}
+
+
+.card-img {
+    width: 100%; 
+    height: 200px;
+    object-fit: cover;
+  }
+
+
+.BreadCrumps{
+	padding-top: 2%;
+	font-weight: lighter;
+}
+
+
+.btn{
+    background-color: #009649;
+    color: white;
+    border: 0px
+}
+
+
+.btn:hover{
+    background-color: #006330;
+    border: 0px
+}
+
+
+.title{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+
+.s_title{
+	font-weight: lighter;
+}
+
+
+.star-rating{
+  color: #b38f00
+}
+
+
+.b_title{
+	font-size: 4em;
+	letter-spacing: .2rem;
+	font-weight: bold;
+	font-family: 'Roboto',sans-serif;
+	opacity: 0.65;
+}
+
+
+.filter-title{
+	letter-spacing: .1rem;
+	font-weight: bold;
+	font-family: 'Roboto',sans-serif;
+	opacity: 0.65;
+}
+
+
+.filter-sub-title{
+	padding-bottom: 10px;
+	letter-spacing: .1rem;
+	font-weight: bold;
+	font-family: 'Roboto',sans-serif;
+	opacity: 0.65;
+}
+
+
+.inline-flex{
+	display: inline-flex;
+}
+
+
+.NavBar{
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 60px;
+}
